@@ -1,9 +1,16 @@
 html{
-    background: url(environments/distant-waterfall-in-mountains.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 950px;
+    margin:0;
+    padding:0;
+    background: url(assets/images/distant-waterfall-in-mountains.jpg)no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
 }
-body {
-    margin: 0;
+footer {
+    text-align: center;
+    background-color: #3f525c;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    left:0;
 }
