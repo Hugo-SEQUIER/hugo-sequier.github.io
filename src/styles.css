@@ -1,0 +1,9 @@
+html{
+    background: url(environments/distant-waterfall-in-mountains.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+body {
+    margin: 0;
+}

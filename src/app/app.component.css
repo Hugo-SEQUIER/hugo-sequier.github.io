@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    width: 100%;
+}
+a {
+    background-color: transparent; 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+a:hover {
+    background-color: #9579CB;
+}
