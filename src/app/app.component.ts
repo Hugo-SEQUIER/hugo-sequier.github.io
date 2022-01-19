@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'e-portfolio';
-  cheminImageLinkedin:any = "../images/linkedin.png";
-  cheminImageGithub:any = "../images/github.png";
+  cheminImageLinkedin:any = "../assets/images/linkedin.png";
+  cheminImageGithub:any = "../assets/images/github.png";
 }

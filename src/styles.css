@@ -1,16 +1,17 @@
 html{
     margin:0;
     padding:0;
-    background: url(assets/images/distant-waterfall-in-mountains.jpg)no-repeat center fixed; 
+    background: url(assets/images/sunset-over-some-mountains.jpg)no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
 footer {
     text-align: center;
-    background-color: #3f525c;
+    border: solid 1px #513a54;
     position:absolute;
     bottom:0;
-    width:100%;
-    height:50px;
-    left:0;
+    width:50%;
+    height:5%;
+    left:25%;
+    color : #b7c1de;
 }
