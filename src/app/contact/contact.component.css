@@ -10,11 +10,13 @@ nav a {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    background-color: #3f525c;
+    background-color: #3c2b31;
     color: white;
     font-size: 22px;
-    border: 2px solid #5C493F;
 }
 .lien:hover {
-    background-color: #536d7a;
+    background-color: #221d23;
+}
+a img {
+    margin-top: 20%;
 }

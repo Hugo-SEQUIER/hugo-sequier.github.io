@@ -14,6 +14,7 @@ export class AccueilComponent implements OnInit {
   cheminImageProjets:any = "../../assets/images/projets.png";
   cheminImageLoisirs:any = "../../assets/images/loisirs.png";
   cheminImageContact:any = "../../assets/images/contact.png";
+  cheminImageExperiences:any = "../../assets/images/experiences.png";
   showNavigationArrows = true;
   showNavigationIndicators = false;
 

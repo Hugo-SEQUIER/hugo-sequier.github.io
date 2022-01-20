@@ -8,7 +8,7 @@
         <p>Bienvenue sur mon e-portfolio. Je suis Hugo SEQUIER, j'ai actuellement 20 ans. 
           J'habite à Nîmes et je fais des études en informatique en seconde année, à l'IUT de Montpellier. 
           Sur ce site, vous pouvez voir le détail de mes compétences que j'ai développé à l'IUT mais également en auto-formation. 
-          Je présente les projets réalisés durant mes études et mes projets personnels. 
+          Je présente les projets réalisés durant mes études et mes projets personnels ainsi que mon expérience professionelle. 
           Je montre mon parcours scolaire et mes loisirs. 
           Pour finir, je vous donne mes coordonnées afin de me joindre ainsi que des liens vers mes réseaux sociaux.</p>
         <a href="https://www.linkedin.com/in/hugo-sequier/"><img class="first" src="../../assets/images/linkedin.png" alt="logo linkedin"></a>
@@ -36,6 +36,14 @@
           </div>
           <div>
             <a routerLink="/etudes"><h4>Mes Etudes</h4></a>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <a routerLink="/expériences"><img [src]="cheminImageExperiences" alt="Random slide"></a>
+          </div>
+          <div>
+            <a routerLink="/expériences"><h4>Mes Expériences</h4></a>
           </div>
         </ng-template>
         <ng-template ngbSlide>

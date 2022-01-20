@@ -11,6 +11,7 @@ import { ProjetsComponent } from './projets/projets.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ExperiencesComponent } from './experiences/experiences.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EtudesComponent,
     LoisirsComponent,
     ProjetsComponent,
-    ContactComponent
+    ContactComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,
