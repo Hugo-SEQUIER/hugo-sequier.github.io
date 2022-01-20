@@ -7,11 +7,15 @@ html{
 }
 footer {
     text-align: center;
-    border: solid 1px #513a54;
+    border: solid 2px #35292d;
     position:absolute;
-    bottom:0;
-    width:50%;
+    bottom:1%;
+    width:15%;
     height:5%;
-    left:25%;
+    left:42.5%;
     color : #b7c1de;
+}
+p {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }

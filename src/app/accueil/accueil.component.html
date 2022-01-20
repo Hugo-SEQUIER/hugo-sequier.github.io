@@ -4,8 +4,15 @@
     <span></span>
     <span></span>
     <div class="content">
-        <h2>Mon E-Portfolio</h2>
-        <p><a>All our modules are designed to play nicely with responsive of course. At the end of the day it comes down to the theme you use - our code doesn't get in your way.</a></p>
+        <h2>Hugo SEQUIER</h2>
+        <p>Bienvenue sur mon e-portfolio. Je suis Hugo SEQUIER, j'ai actuellement 20 ans. 
+          J'habite à Nîmes et je fais des études en informatique en seconde année, à l'IUT de Montpellier. 
+          Sur ce site, vous pouvez voir le détail de mes compétences que j'ai développé à l'IUT mais également en auto-formation. 
+          Je présente les projets réalisés durant mes études et mes projets personnels. 
+          Je montre mon parcours scolaire et mes loisirs. 
+          Pour finir, je vous donne mes coordonnées afin de me joindre ainsi que des liens vers mes réseaux sociaux.</p>
+        <a href="https://www.linkedin.com/in/hugo-sequier/"><img class="first" src="../../assets/images/linkedin.png" alt="logo linkedin"></a>
+        <a href="https://github.com/Hugo-SEQUIER"><img class="first" src="../../assets/images/github.png" alt="logo github"></a>
     </div>
 </div>
 <div class="box b2">
@@ -17,42 +24,42 @@
       <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
-            <img [src]="cheminImageCompetences" alt="Random slide">
+            <a routerLink="/competences"><img [src]="cheminImageCompetences" alt="Random slide"></a>
           </div>
           <div>
-            <h4>Mes Compétences</h4>
+            <a routerLink="/competences"><h4>Mes Compétences</h4></a>
           </div>
         </ng-template>
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
-            <img [src]="cheminImageEtudes" alt="Random slide">
+            <a routerLink="/etudes"><img [src]="cheminImageEtudes" alt="Random slide"></a>
           </div>
           <div>
-            <h4>Mes Etudes</h4>
+            <a routerLink="/etudes"><h4>Mes Etudes</h4></a>
           </div>
         </ng-template>
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
-            <img [src]="cheminImageProjets" alt="Random slide">
+            <a routerLink="/projets"><img [src]="cheminImageProjets" alt="Random slide"></a>
           </div>
           <div>
-            <h4>Mes Projets</h4>
+            <a  routerLink="/projets"><h4>Mes Projets</h4></a>
           </div>
         </ng-template>
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
-            <img [src]="cheminImageLoisirs" alt="Random slide">
+            <a routerLink="/loisirs"><img [src]="cheminImageLoisirs" alt="Random slide"></a>
           </div>
           <div>
-            <h4>Mes Loisirs</h4>
+            <a routerLink="/loisirs"><h4>Mes Loisirs</h4></a>
           </div>
         </ng-template>
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
-            <img [src]="cheminImageContact" alt="Random slide">
+            <a class="lien" routerLink="/contact"><img [src]="cheminImageContact" alt="Random slide"></a>
           </div>
           <div>
-            <h4>Contactez moi</h4>
+            <a class="lien" routerLink="/contact"><h4>Contactez moi</h4></a>
           </div>
         </ng-template>
       </ngb-carousel>
