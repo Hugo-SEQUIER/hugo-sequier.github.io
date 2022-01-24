@@ -5,9 +5,11 @@ html{
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     height: 100%;
+    width: 100%;
 }
 body {
     min-height: 100%;
+    width: 100%;
 }
 footer {
     text-align: center;
@@ -19,15 +21,14 @@ footer {
     left:39%;
     color : #b7c1de;
 }
-
+footer p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 @media (max-width: 970px){
     footer {
         width:20%;
         left:39%;
         margin-bottom: 2%;
      }
-}
-p {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
 }

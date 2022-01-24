@@ -9,7 +9,6 @@ import { LISTIMAGES } from '../mockimage';
 export class AccueilComponent implements OnInit {
 
   title = "Accueil";
-
   images= LISTIMAGES;
   showNavigationArrows = true;
   showNavigationIndicators = false;

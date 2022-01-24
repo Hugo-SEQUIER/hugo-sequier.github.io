@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./loisirs.component.css']
 })
 export class LoisirsComponent implements OnInit {
-
+  isAccueil?: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
