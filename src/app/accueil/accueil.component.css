@@ -91,6 +91,7 @@ div h5 {
 @media (max-width: 970px){
   .box:first-child {
     margin-left: 50%;
+    margin-top: 40%;
   }
   .box:nth-child(2) {
     margin-left: 50%;
