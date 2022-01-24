@@ -4,6 +4,7 @@
     <span></span>
     <span></span>
     <div class="content">
-        <img [src]="image.imagePath">
+        <a [routerLink]="image.nom"><img [src]="image.imagePath"></a>
+        <a [routerLink]="image.nom"><h5>{{image.desc}}</h5></a>
     </div>
 </div>

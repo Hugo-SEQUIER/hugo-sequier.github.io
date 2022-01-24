@@ -1,10 +1,10 @@
 import { PathImage } from "./pathImage";
 
 export const LISTIMAGES:PathImage[] = [
-    {imagePath:'../../assets/images/competences.png'},
-    {imagePath:'../../assets/images/etudes.png'},
-    {imagePath:'../../assets/images/projets.png'},
-    {imagePath:'../../assets/images/experiences.png'},
-    {imagePath:'../../assets/images/loisirs.png'},
-    {imagePath:'../../assets/images/contact.png'}
+    {imagePath:'../../assets/images/competences.png', desc : 'Mes Compétences',nom:'/competences'},
+    {imagePath:'../../assets/images/etudes.png', desc : 'Mes Etudes',nom:'/etudes'},
+    {imagePath:'../../assets/images/projets.png', desc : 'Mes Projets',nom:'/projets'},
+    {imagePath:'../../assets/images/experiences.png', desc : 'Mes Expériences',nom:'/experiences'},
+    {imagePath:'../../assets/images/loisirs.png', desc : 'Mes Loisirs',nom:'/loisirs'},
+    {imagePath:'../../assets/images/contact.png', desc : 'Me Contacter',nom:'/contact'}
 ];

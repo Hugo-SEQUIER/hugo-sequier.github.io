@@ -1,19 +1,31 @@
 html{
     margin:0;
     padding:0;
-    background: url(assets/images/beautiful-day-at-the-beach.jpg)no-repeat center fixed; 
+    background: url(assets/images/sunset-over-some-mountains.jpg)no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
+    height: 100%;
+}
+body {
+    min-height: 100%;
 }
 footer {
     text-align: center;
     border: solid 2px #35292d;
-    position:absolute;
+    position: relative;
     bottom:1%;
-    width:15%;
+    width:20%;
     height:5%;
-    left:42.5%;
+    left:39%;
     color : #b7c1de;
+}
+
+@media (max-width: 970px){
+    footer {
+        width:20%;
+        left:39%;
+        margin-bottom: 2%;
+     }
 }
 p {
     margin-top: 2.5%;
