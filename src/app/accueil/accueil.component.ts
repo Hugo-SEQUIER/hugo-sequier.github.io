@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { LISTIMAGES } from '../mockimage';
 @Component({
   selector: 'app-accueil',
   templateUrl: './accueil.component.html',
@@ -9,12 +10,7 @@ export class AccueilComponent implements OnInit {
 
   title = "Accueil";
 
-  cheminImageCompetences:any = "../../assets/images/competences.png";
-  cheminImageEtudes:any = "../../assets/images/etudes.png";
-  cheminImageProjets:any = "../../assets/images/projets.png";
-  cheminImageLoisirs:any = "../../assets/images/loisirs.png";
-  cheminImageContact:any = "../../assets/images/contact.png";
-  cheminImageExperiences:any = "../../assets/images/experiences.png";
+  images= LISTIMAGES;
   showNavigationArrows = true;
   showNavigationIndicators = false;
 
