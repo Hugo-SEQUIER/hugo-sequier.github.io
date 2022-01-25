@@ -14,8 +14,8 @@ a h5 {
 }
 
 .box{
-    display: flex;
-    transform: translate(-50%, -50%);
+    margin-top: 5%;
+    transform: translate(-0, -0);
     background: transparent;
     box-sizing: border-box;
     overflow: hidden;
@@ -32,7 +32,8 @@ a h5 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
+  gap: 10%;
+  flex-wrap: wrap;
 }
 
 .box:before{

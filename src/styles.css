@@ -6,6 +6,7 @@ html{
     background-size: cover; /* version standardisée */
     height: 100%;
     width: 100%;
+    min-width: 740px;
 }
 body {
     min-height: 100%;
@@ -15,7 +16,7 @@ footer {
     text-align: center;
     border: solid 2px #35292d;
     position: relative;
-    bottom:1%;
+    margin-top: 2%;
     width:20%;
     height:5%;
     left:39%;

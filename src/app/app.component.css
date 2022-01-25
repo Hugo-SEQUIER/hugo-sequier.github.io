@@ -40,3 +40,8 @@ header a {
     margin-top: auto;
     margin-bottom: auto;
 }
+@media (max-width: 740px){
+    header p {
+        display: none
+    }
+}
