@@ -1,4 +1,5 @@
-<div class="box" *ngFor="let image of images">
+<div class="menu">
+    <div class="box" *ngFor="let image of images">
     <span></span>
     <span></span>
     <span></span>
@@ -7,4 +8,5 @@
         <a [routerLink]="image.nom"><img [src]="image.imagePath"></a>
         <a [routerLink]="image.nom"><h5>{{image.desc}}</h5></a>
     </div>
+</div>
 </div>
