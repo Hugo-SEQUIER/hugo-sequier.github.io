@@ -20,7 +20,7 @@ export class AccueilComponent implements OnInit {
     new Typewriter(p, {
       //deleteSpeed : 20
     })
-    .changeDelay(60)
+    .changeDelay(100)
     .typeString('Etudiant en 2ème année de DUT Informatique')
     .pauseFor(500)
     .deleteAll(30)
