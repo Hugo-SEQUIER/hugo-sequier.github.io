@@ -1,7 +1,7 @@
 html{
     margin:0;
     padding:0;
-    background: url(assets/images/sunset-over-some-mountains.jpg)no-repeat center fixed; 
+    background: url(assets/images/20211104_090124431_iOS.jpg)no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     height: 100%;
@@ -14,13 +14,13 @@ body {
 }
 footer {
     text-align: center;
-    border: solid 2px #35292d;
+    border: solid 2px #1d2f3d;
     position: relative;
     margin-top: 2%;
     width:20%;
     height:5%;
     left:39%;
-    color : #b7c1de;
+    color: white;
 }
 footer p {
     margin-top: auto;

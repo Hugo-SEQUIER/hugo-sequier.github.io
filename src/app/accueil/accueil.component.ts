@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 import { LISTIMAGES } from '../mockimage';
+
+declare let Typewriter: any;
 @Component({
   selector: 'app-accueil',
   templateUrl: './accueil.component.html',
@@ -13,8 +15,18 @@ export class AccueilComponent implements OnInit {
   showNavigationArrows = true;
   showNavigationIndicators = false;
 
-  ngOnInit() {
-
+  ngOnInit():void {
+    const p = document.querySelector('p');
+    new Typewriter(p, {
+      //deleteSpeed : 20
+    })
+    .changeDelay(60)
+    .typeString('Etudiant en 2ème année de DUT Informatique')
+    .pauseFor(500)
+    .deleteAll(30)
+    .pauseFor(500)
+    .typeString('Futur Ingénieur Informatique')
+    .start();
   }
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
