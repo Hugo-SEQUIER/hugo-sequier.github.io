@@ -1,5 +1,5 @@
 <section class="section intro">
-        <div class="container">
+        <div class="container" (mouseover)="change2019=true; change2020=true;change2021=true;change2022=true" (mouseout)="change2019=false;change2020=false;change2021=false;change2022=false">
         <h1>Mon parcours scolaire &rarr;</h1>
         </div>
     </section>
@@ -13,7 +13,7 @@
         </li>
         <li (mouseover)="change2020=true" (mouseout)="change2020=false">
             <div (mouseover)="change2020=true" (mouseout)="change2020=false">
-                <time >2020 | UTT | IUT Montpellier</time><span *ngIf="change2020">J'ai intégré une école d'ingénieur. Cependant, le cursus et le mode de vie ne me correspondait pas. J'ai alors rejoins l'IUT de Montpellier au 2e semestre afin d'analyser si cette voie était la mienne.</span>
+                <time >2020 | UTT | IUT Montpellier</time><span *ngIf="change2020">J'ai intégré une école d'ingénieur. Cependant, le cursus ne me correspondait pas. J'ai alors rejoins l'IUT au 2e semestre afin d'analyser si cette voie était la mienne.</span>
             </div>
         </li>
         <li (mouseover)="change2021=true" (mouseout)="change2021=false">
