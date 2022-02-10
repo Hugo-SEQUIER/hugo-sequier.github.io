@@ -1,0 +1,31 @@
+<section class="section intro">
+        <div class="container">
+        <h1>Mon parcours scolaire &rarr;</h1>
+        </div>
+    </section>
+    
+    <section class="timeline">
+        <ol>
+        <li (mouseover)="change2019=true" (mouseout)="change2019=false">
+            <div (mouseover)="change2019=true" (mouseout)="change2019=false">
+                <time >2016-2019 | Lycée Albert Camus</time><span *ngIf="change2019">J'ai obtenu mon baccalauréat scientifique mention assez bien mention européenne espagnole, spécialité physique chimie.</span>
+            </div>
+        </li>
+        <li (mouseover)="change2020=true" (mouseout)="change2020=false">
+            <div (mouseover)="change2020=true" (mouseout)="change2020=false">
+                <time >2020 | UTT | IUT Montpellier</time><span *ngIf="change2020">J'ai intégré une école d'ingénieur. Cependant, le cursus et le mode de vie ne me correspondait pas. J'ai alors rejoins l'IUT de Montpellier au 2e semestre afin d'analyser si cette voie était la mienne.</span>
+            </div>
+        </li>
+        <li (mouseover)="change2021=true" (mouseout)="change2021=false">
+            <div (mouseover)="change2021=true" (mouseout)="change2021=false">
+                <time >2021 | IUT Montpellier</time><span *ngIf="change2021">J'ai recommencé l'IUT en première année car je n'avais pas de 1er semestre de validée. J'ai beaucoup travaillé tout le long de l'année et j'ai fini <strong>6e</strong> sur une promotion de 149 étudiant avec <strong>15.553</strong> de moyenne.</span>
+            </div>
+        </li>
+        <li (mouseover)="change2022=true" (mouseout)="change2022=false">
+            <div (mouseover)="change2022=true" (mouseout)="change2022=false">
+                <time >2022 | IUT Montpellier</time><span *ngIf="change2022">J'ai continué mes efforts afin d'obtenir un bon classement pour le troisième semestre. Mon travail a payé puisque j'ai réussi à atteindre la <strong>4ème</strong> place de la promotion de 120 etudiants.</span>
+            </div>
+        </li>
+        <li></li>
+        </ol>
+</section>

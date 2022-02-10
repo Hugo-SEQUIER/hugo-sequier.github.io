@@ -1,26 +1,3 @@
-nav {
-    display: flex;
-    width: 100%;
-}
-nav a {
-    border-radius: 4px;
-    margin: 0.5em;
-}
-.lien {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    background-color: #3c2b31;
-    color: white;
-    font-size: 22px;
-}
-.lien:hover {
-    background-color: #221d23;
-}
-a img {
-    margin-top: 20%;
-}
-
 ngb-progressbar {
     width: 50%;
 }

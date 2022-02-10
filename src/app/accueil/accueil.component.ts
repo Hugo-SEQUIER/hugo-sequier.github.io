@@ -25,7 +25,7 @@ export class AccueilComponent implements OnInit {
     .pauseFor(500)
     .deleteAll(30)
     .pauseFor(500)
-    .typeString('Futur Ingénieur Informatique')
+    .typeString('Futur Ingénieur en Informatique')
     .start();
   }
   constructor(config: NgbCarouselConfig) {

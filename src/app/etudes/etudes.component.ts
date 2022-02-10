@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EtudesComponent implements OnInit {
   isAccueil?: boolean = true;
+
+  change2019?: boolean;
+  change2020?: boolean;
+  change2021?: boolean;
+  change2022?: boolean;
   constructor() { }
 
   ngOnInit(): void {
