@@ -27,10 +27,3 @@ footer p {
     margin-bottom: auto;
     border: solid 2px #1d2f3d;
 }
-@media (max-width: 970px){
-    footer {
-        width:20%;
-        left:39%;
-        margin-bottom: 2%;
-     }
-}

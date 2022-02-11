@@ -16,6 +16,21 @@ ngb-progressbar {
     padding-bottom: 20px;
 }
 
+.section {
+  background: #1d2f3d;
+  padding: 50px 0;
+  color: #b7c1de;
+}
+.section .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section h1 {
+  font-size: 2.5rem;
+}
+
 #ref{
     width:30%;
     margin: auto;
@@ -49,15 +64,13 @@ ngb-progressbar {
 .menu {
   display: flex;
   justify-content: center;
-
 }
 
-h1 {
+div h1 {
     text-indent: 15px;
   }
 
 .container {
-    display: flex;
     align-items: center;
     animation: expand .8s ease forwards;
     position: relative;

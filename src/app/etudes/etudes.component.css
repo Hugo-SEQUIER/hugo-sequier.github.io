@@ -163,7 +163,30 @@ body {
   height: 45px;
 }
 
+#i{
+  animation: slideDown .8s ease forwards;
+}
 
+#j{
+  animation: slideUp .8s ease forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 1150px) {

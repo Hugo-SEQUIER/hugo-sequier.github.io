@@ -1,22 +1,36 @@
-nav {
-    display: flex;
-    width: 100%;
+.section {
+  background: #1d2f3d;
+  padding: 50px 0;
+  color: #b7c1de;
 }
-nav a {
-    border-radius: 4px;
-    margin: 0.5em;
+
+.section .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
-.lien {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    background-color: #3c2b31;
-    color: white;
-    font-size: 22px;
+
+.section h1 {
+  font-size: 2.5rem;
 }
-.lien:hover {
-    background-color: #221d23;
+
+.box{
+  background: transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 20px 80px #1d2f3d;
+  border: 2px solid #b7c1de;
+  color : #b7c1de;
+  
 }
-a img {
-    margin-top: 20%;
+
+.main {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  flex-wrap: wrap;
 }
