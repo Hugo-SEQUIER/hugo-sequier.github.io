@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperiencesComponent implements OnInit {
   isAccueil?: boolean = true;
+  elem1?:boolean;
+  elem2?:boolean;
+  elem3?:boolean;
+  
   constructor() { }
 
   ngOnInit(): void {

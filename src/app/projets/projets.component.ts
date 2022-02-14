@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetsComponent implements OnInit {
   isAccueil?: boolean = true;
+  iot?: boolean
+  bang?: boolean
+  commerce?: boolean
+  html?: boolean
+  waze?: boolean
+  scrum?: boolean
+  noissap?:boolean
   constructor() { }
 
   ngOnInit(): void {

@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'competences', component: CompetencesComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'etudes', component: EtudesComponent },
-  { path: 'loisirs', component: LoisirsComponent },
+  { path: 'propos', component: LoisirsComponent },
   { path: 'projets', component: ProjetsComponent },
   { path: 'experiences', component: ExperiencesComponent }
 ];
