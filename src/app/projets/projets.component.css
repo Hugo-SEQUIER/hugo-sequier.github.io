@@ -1,7 +1,7 @@
 .section {
     background: #1d2f3d;
     padding: 50px 0;
-    color: #b7c1de;
+    color: white;
     margin-bottom: 5;
   }
   .section .container {
@@ -28,7 +28,7 @@
     overflow: hidden;
     box-shadow: 0 20px 80px #1d2f3d;
     border: 2px solid #b7c1de;
-    color : #b7c1de;
+    color : white;
     width:60%;
     margin-bottom: 3%;
     padding-top: 20px;
@@ -84,7 +84,7 @@ video {
 }
 
 button {
-    background-color: #b7c1de;
+    background-color: white;
     box-shadow: 0 20px 80px #1d2f3d;
     border: 2px solid #1d2f3d;
     max-height: 50px;

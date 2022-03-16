@@ -1,7 +1,7 @@
 html{
     margin:0;
     padding:0;
-    background: url(assets/images/20211104_090124431_iOS.jpg)no-repeat center fixed; 
+    background-color : rgb(255, 255, 255);
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     height: 100%;
@@ -14,7 +14,7 @@ footer {
     margin-top: 2%;
     width:100%;
     height:5%;
-    color: white;
+    color: #1d2f3d;
     bottom:0;
     text-align: center;
     justify-content: center;

@@ -1,7 +1,7 @@
 .section {
     background: #1d2f3d;
     padding: 50px 0;
-    color: #b7c1de;
+    color: white;
   }
   
   .section .container {
@@ -26,7 +26,7 @@ div .img{
     overflow: hidden;
     box-shadow: 0 20px 80px #1d2f3d;
     border: 2px solid #b7c1de;
-    color : #b7c1de;
+    color : white;
     animation: slideRight .8s ease forwards;
     margin-bottom: 2%;
   }

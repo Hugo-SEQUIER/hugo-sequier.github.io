@@ -8,7 +8,7 @@ ngb-progressbar {
     overflow: hidden;
     box-shadow: 0 20px 80px #1d2f3d;
     border: 2px solid #b7c1de;
-    color : #b7c1de;
+    color : white;
     width:60%;
     justify-content: center;
     margin-bottom: 3%;
@@ -18,7 +18,7 @@ ngb-progressbar {
 .section {
   background: #1d2f3d;
   padding: 50px 0;
-  color: #b7c1de;
+  color: white;
   
 }
 .section .container {
@@ -54,7 +54,7 @@ ngb-progressbar {
 .compet h4 {
     margin-top: 0.3em;
     margin-right: 50px;
-    width : 20%;
+    width : 30%;
     justify-content: center;
     text-align: center;
 }

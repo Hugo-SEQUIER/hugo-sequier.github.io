@@ -5,7 +5,7 @@
 .section {
   background: #1d2f3d;
   padding: 50px 0;
-  color: #b7c1de;
+  color: white;
 }
 
 .section .container {
@@ -77,7 +77,7 @@
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: #b7c1de;
+  color: white;
   background: #1d2f3d;
 }
 
