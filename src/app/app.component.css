@@ -1,7 +1,7 @@
 header {
     text-decoration: none;
     background-color: transparent;
-    color: #1d2f3d;
+    color: #eee;
     font-size: 22px;
     border-radius: 20px;
     display :flex;
@@ -11,6 +11,7 @@ header {
     padding-right: 1rem;
     box-shadow:0px 0px 10px #b7c1de;
     margin : auto;
+    margin: 1%;
 }
 
 p {
@@ -25,13 +26,17 @@ p {
 header a:hover {
     text-decoration: none;
     background-color: transparent;
-    color: #b7c1de;
+    color: #1d2f3d;
+}
+
+.colorB {
+    color: #1d2f3d !important;
 }
 header a {
     padding: 1rem;
     text-decoration: none;
     display: inline-block;
-    color: #1d2f3d;
+    color: #eee;
     border-radius: 4px;
     margin-top: auto;
     margin-bottom: auto;
@@ -41,3 +46,4 @@ header a {
         display: none
     }
 }
+

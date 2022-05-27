@@ -1,27 +1,4 @@
-.section {
-    background: #1d2f3d;
-    padding: 50px 0;
-    color: white;
-  }
-  
-  .section .container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center
-  }
-  
-  .section h1 {
-    font-size: 2.5rem;
-  }
 
-h3 {
-    margin-top: 3em;
-}
 p {
     text-align: justify;
     font-size: 1.2rem;
@@ -34,13 +11,14 @@ strong {
 
 
 .box{
-    background: #1d2f3d;
+    background: #1d2f3d8a;
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 20px 80px #1d2f3d;
     border: 2px solid #b7c1de;
     color : white;
     width : 75%;
+    border-radius: 20px;
     margin: 1em;
     animation: slideDown .8s ease forwards;
   }
@@ -58,7 +36,7 @@ strong {
     justify-content: center;
     gap: 5%;
     flex-wrap: wrap;
-    box-shadow: 0 20px 80px #1d2f3d;
+    box-shadow: 0 20px 80px #1d2f3db8;
     width: 65%;
     margin-left : 17.5%;
   }

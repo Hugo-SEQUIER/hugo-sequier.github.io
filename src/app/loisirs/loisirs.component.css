@@ -1,66 +1,57 @@
-.section {
-    background: #1d2f3d;
-    padding: 50px 0;
-    color: white;
-  }
-  
-  .section .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .section h1 {
-    font-size: 2.5rem;
-  }
+
 div .img{
     width : 300px;
     height : 400px;
     animation: slideLeft .8s ease forwards;
+    z-index: 999;
+    position: absolute;
+    margin-left:7%;
+    margin-top: 3%;
   }
 
   .box{
-    background: #1d2f3d;
+    background: #1d2f3d8a;
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 20px 80px #1d2f3d;
-    border: 2px solid #b7c1de;
     color : white;
     animation: slideRight .8s ease forwards;
     margin-bottom: 2%;
+    border-radius: 20px;
+    margin-right: 2%;
   }
   
   .box:last-child{
-      margin-bottom: 0;
+      margin-bottom: 2%;
   }
 
-  .main {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-    flex-wrap: wrap;
-    box-shadow: 0 20px 80px #1d2f3d;
-    width: 90%;
-    margin-left : 5%;
-  }
+ .main {
+   margin-top: 5%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   box-shadow: 0 20px 80px #1d2f3d8a;
+   width: 90%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+ }
 
-  .mainbis {
-    margin-top: 5%;
-    display: flex;
-    gap: 5%;
-    flex-wrap: wrap;
-    flex-direction:column;
-    box-shadow: 0 20px 80px #1d2f3d;
-    justify-content: center;
-    align-items: center;
-    width : 50%;
-    margin-bottom: 5%;
-    
-  }
+ .mainbis {
+   display: flex;
+   gap: 5%;
+   flex-wrap: wrap;
+   flex-direction: column;
+   box-shadow: 0 20px 80px #1d2f3d;
+   align-items: center;
+   z-index: 900;
+   margin: 5%;
+   width: 60%;
+ }
+
+ .mainbis:last-child {
+   width: 25% !important;
+ }
   @keyframes slideLeft{
     0% {
       transform: translateX(-350px);
@@ -101,4 +92,15 @@ div .img{
 
   ul p{
       margin-left: -0;
+}
+
+@media (max-width: 850px) {
+  .img {
+    display: none;
+  }
+
+  .box {
+    margin-left: 0 !important;
+    width: 80%;
+  }
 }

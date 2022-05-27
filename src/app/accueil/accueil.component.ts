@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 import { LISTIMAGES } from '../mockimage';
 
@@ -26,6 +26,9 @@ export class AccueilComponent implements OnInit {
     .deleteAll(30)
     .pauseFor(500)
     .typeString('Futur Ingénieur en Informatique')
+    .deleteAll(30)
+    .pauseFor(500)
+    .typeString('Futur Développeur FullStack')
     .start();
   }
   constructor(config: NgbCarouselConfig) {
@@ -33,4 +36,7 @@ export class AccueilComponent implements OnInit {
     config.showNavigationArrows = true;
     config.showNavigationIndicators = true;
   }
+
+  
+
 }

@@ -1,0 +1,109 @@
+.box{
+    background: #1d2f3d8a;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 80px #1d2f3d;
+    border: 2px solid #b7c1de;
+    color : white;
+    width : 60%;
+    border-radius: 20px;
+    margin : 2%;
+}
+.box:nth-child(odd){
+  margin-right: 20%;
+  animation: slideLeft .8s ease forwards;
+}
+.box:nth-child(even){
+  margin-left: 20%;
+  animation: slideRight .8s ease forwards;
+}
+div h1 {
+    font-size: 2em;
+    text-indent: 1em;
+  }
+  div h2 {
+    font-size: 1.3em;
+  }
+ 
+  h4,p{
+    text-indent: 1em;
+  }
+  
+  p{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+  }
+  li {
+    margin-right: 1em;
+    text-align: justify;
+  }
+
+.box video {
+    margin: 2.5%;
+}
+.icone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap : 5%;
+  margin-bottom : 1%;
+}
+.inter {
+    width: 100%;
+}
+.inter > div:first-child {
+  display: flex;
+  justify-content: center;
+}
+video {
+    margin-left: 2%;
+}
+
+.jsp {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  flex-wrap: wrap;
+  box-shadow: 0 20px 80px #1d2f3d4d;
+  width: 90%;
+  margin : 5%
+}
+
+.jsp > div {
+  width: 60%;
+}
+
+@media (max-width: 1300px) {
+  video {
+    display: none;
+  }
+
+ .jsp > div {
+    width: 100%;
+  } 
+}
+
+@keyframes slideLeft{
+    0% {
+      transform: translateX(-250px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+    @keyframes slideRight {
+      0% {
+        transform: translateX(250px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }

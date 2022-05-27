@@ -1,75 +1,81 @@
-<section class="section">
-    <div class="container" (mouseover)="elem1 = elem2 = elem3 = false;">
-        <h1>Mes expériences professionnelles</h1>
-    </div>
-</section>
-<div class="main">
-    <div class="box" *ngIf="!elem2 && !elem3" (mouseover)="elem1 = true;">
+
+<div class="main" >
+    <div class="box" >
         <h1>Stage - Aide Diagnostic Solution Logicielle</h1>
         <h2>Avril 2022 - Juin 2022 | Actia Telecom Vendargues</h2>
-        <div *ngIf="elem1">
+        <div >
             <h4>¤ Mission :</h4>
-            <p>Ajouter un système d'aide au diagnostic à un logicielle d'hypervision de vidéos surveillance pour les villes et la mobilité.</p>
-            <h4>¤ Contenu :</h4>
-            <ul>
-                <li>Analyse des besoins de recherche et d'analyses auprès du service technique.</li>
-                <li>Analyse des solutions existantes sur le marché et comparatif à une solution maison avec ReactJS.</li>
-                <li>Développement d'une solution d'analyse de logs avec possibilité de créer des rapports, des requêtes spécifiques au logiciel.</li>
-                <li>Déploiement et validation de la solution sur différents cas.</li>
-                <li>Rédaction documentaire de la solution mise en place.</li>
-            </ul>
-            <h4>¤ Compétences développées :</h4>
-            <ul>
-                <li>Travail au sein d'une équipe.</li>
-                <li>Autonomie sur certaines tâches.</li>
-                <li>Organisation.</li>
-            </ul>
-            <video width="100%" height="400" controls>
-                <source src="../../assets/fichier/actia.mp4" type="video/mp4">
-            </video>
+            <p>Ajouter un système d'aide au diagnostic à un logiciel d'hypervision de vidéos surveillance pour les villes et la mobilité.</p>
+            <div>
+                <h4>¤ Contenu :</h4>
+                <ul>
+                    <li>Analyse des besoins de recherche et d'analyses auprès du service technique.</li>
+                    <li>Analyse des solutions existant sur le marché et comparatif à une solution maison avec <strong>ReactJS</strong></li>
+                    <li>Développement d'une solution d'analyse de logs avec possibilité de créer des rapports, des requêtes spécifiques au logiciel.</li>
+                    <li>Déploiement et validation de la solution sur différents cas.</li>
+                    <li>Rédaction documentaire de la solution mise en place.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>¤ Compétences développées :</h4>
+                <ul>
+                    <li>Travail au sein d'une équipe.</li>
+                    <li>Autonomie.</li>
+                    <li>Découverte d'un nouveau FrameWork.</li>
+                    <li>Organisation.</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="box" *ngIf="!elem1 && !elem3" (mouseover)="elem2 = true;" >
+    <div class="box" >
         <h1>Vendeur CDD en Boulangerie</h1>
         <h2>Juillet 2021 - Aout 2021 | Christophe Roussel Yummy</h2>
-        <div *ngIf="elem2">
-            <h4>¤ Contenu :</h4>
-            <ul>
-                <li>Facing de la vitrine.</li>
-                <li>Conseil client.</li>
-                <li>Gestion des commandes et des stocks.</li>
-                <li>Plaquage des viennoiseries.</li>
-                <li>Installation et gestion du glacier.</li>
-            </ul>
-            <h4>¤ Compétences développées :</h4>
-            <ul>
-                <li>Travail au sein d'une équipe.</li>
-                <li>Relation client.</li>
-                <li>Autonomie</li>
-                <li>Ponctualité.</li>
-                <li>Prise de décision.</li>
-                <li>Polyvalence.</li>
-            </ul>
+        <div >
+            <div>
+                <h4>¤ Contenu :</h4>
+                <ul>
+                    <li>Facing de la vitrine.</li>
+                    <li>Conseil client.</li>
+                    <li>Gestion des commandes et des stocks.</li>
+                    <li>Plaquage des viennoiseries.</li>
+                    <li>Installation et gestion du glacier.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>¤ Compétences développées :</h4>
+                <ul>
+                    <li>Travail au sein d'une équipe.</li>
+                    <li>Relation client.</li>
+                    <li>Autonomie</li>
+                    <li>Ponctualité.</li>
+                    <li>Prise de décision.</li>
+                    <li>Polyvalence.</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="box" *ngIf="!elem1 && !elem2" (mouseover)="elem3 = true;" >
+    <div class="box">
         <h1>Stage préparateur de commandes</h1>
         <h2>Février 2016 - Février 2016 | Rexel </h2> <h2> Février 2017 - Février 2017 | Casino</h2>
-        <div *ngIf="elem3">
-            <h4>¤ Contenu :</h4>
-            <ul>
-                <li>Mise en rayon.</li>
-                <li>Gestion des commandes et des stocks.</li>
-                <li>Accueil clients.</li>
-            </ul>
-            <h4>¤ Compétences développées :</h4>
-            <ul>
-                <li>Compréhension du fonctionnement d'une grande surface.</li>
-                <li>Relation client.</li>
-                <li>Autonomie.</li>
-                <li>Ponctualité.</li>
-                <li>Gestion des flux de marchandises au sein d'une entreprise.</li>
-            </ul>
+        <div>
+            <div>
+                <h4>¤ Contenu :</h4>
+                <ul>
+                    <li>Mise en rayon.</li>
+                    <li>Gestion des commandes et des stocks.</li>
+                    <li>Accueil clients.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>¤ Compétences développées :</h4>
+                <ul>
+                    <li>Compréhension du fonctionnement d'une grande surface.</li>
+                    <li>Relation client.</li>
+                    <li>Autonomie.</li>
+                    <li>Ponctualité.</li>
+                    <li>Gestion des flux de marchandises au sein d'une entreprise.</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

@@ -7,10 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { CompetencesComponent } from './competences/competences.component';
 import { EtudesComponent } from './etudes/etudes.component';
 import { LoisirsComponent } from './loisirs/loisirs.component';
-import { ProjetsComponent } from './projets/projets.component';
+import { RealisationsComponent } from './realisations/realisations.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ExperiencesComponent } from './experiences/experiences.component';
+import { ProjetComponent } from './projet/projet.component';
+
 
 
 @NgModule({
@@ -20,18 +22,21 @@ import { ExperiencesComponent } from './experiences/experiences.component';
     CompetencesComponent,
     EtudesComponent,
     LoisirsComponent,
-    ProjetsComponent,
+    ProjetComponent,
     ContactComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    ProjetComponent,
+    RealisationsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  
+ 
+
  }
