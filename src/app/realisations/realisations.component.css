@@ -82,14 +82,20 @@ video {
 }
 
 @media (max-width: 1300px) {
-  video {
-    display: none;
-  }
 
  .jsp > div {
     width: 100%;
   } 
+
+  .jsp {
+    flex-direction: column;
+  }
+
+  .jsp video {
+    width: 80% !important;
+  }
 }
+
 
 @keyframes slideLeft{
     0% {
