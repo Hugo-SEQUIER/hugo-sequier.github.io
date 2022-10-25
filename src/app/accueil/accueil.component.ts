@@ -21,11 +21,8 @@ export class AccueilComponent implements OnInit {
       //deleteSpeed : 20
     })
     .changeDelay(100)
-    .typeString('Etudiant en 2ème année de DUT Informatique')
+    .typeString("Etudiant en 3ème année d'ingénieur Fintech à l'ESILV")
     .pauseFor(500)
-    .deleteAll(30)
-    .pauseFor(500)
-    .typeString('Futur Ingénieur en Informatique')
     .deleteAll(30)
     .pauseFor(500)
     .typeString('Futur Développeur FullStack')

@@ -22,6 +22,12 @@
                 <time >2022 | IUT Montpellier</time><span *ngIf="change2022">J'ai continué mes efforts afin d'obtenir un bon classement pour le troisième semestre. Mon travail a payé puisque j'ai réussi à atteindre la <strong>4ème</strong> place de la promotion de 120 étudiants avec <strong>15.69</strong> de moyenne.</span>
             </div>
         </li>
-        <li id="i"  ></li>
+        <li id="i" (mouseover)="change2023=true" (mouseout)="change2023=false">
+            <div (mouseover)="change2023=true" (mouseout)="change2023=false">
+                <time>2023 | ESILV </time><span *ngIf="change2023">Je suis actuellement en 3ème année d'ingénieur FinTech à l'ESILV. </span>
+            </div>
+        </li>
+        <li id="j" (mouseover)="change2022=true" (mouseout)="change2022=false">
+        </li>
         </ol>
     </section>

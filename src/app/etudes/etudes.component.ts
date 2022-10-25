@@ -12,6 +12,7 @@ export class EtudesComponent implements OnInit {
   change2020?: boolean;
   change2021?: boolean;
   change2022?: boolean;
+  change2023?: boolean;
   constructor() { }
 
   ngOnInit(): void {
